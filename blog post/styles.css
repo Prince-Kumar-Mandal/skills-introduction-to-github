@@ -1,0 +1,137 @@
+/* Global resets and basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Navigation Bar */
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: #f8f8f8;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .nav-menu li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  .nav-menu li a:hover {
+    color: #007bff;
+  }
+  
+  .buy-now {
+    background-color: #ff4b2b;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-weight: 500;
+    border-radius: 4px;
+  }
+  
+  .buy-now:hover {
+    opacity: 0.9;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    display: flex;
+    flex-wrap: wrap; /* Allows stacking on smaller screens */
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 2rem;
+    background-color: #ffffff;
+  }
+  
+  .hero-content {
+    flex: 1;
+    max-width: 600px;
+    margin-right: 2rem;
+  }
+  
+  .hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .highlight {
+    color: #007bff; /* Highlight color for the name "Steven" */
+  }
+  
+  .subheading {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #555;
+  }
+  
+  .description {
+    margin-bottom: 1.5rem;
+    color: #666;
+  }
+  
+  /* Subscription Form */
+  .subscribe-form {
+    display: flex;
+    max-width: 400px;
+    gap: 0.5rem;
+  }
+  
+  .subscribe-form input[type="email"] {
+    flex: 1;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .subscribe-form button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .subscribe-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Hero Illustration */
+  .hero-illustration {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    margin-top: 2rem;
+  }
+  
+  .hero-illustration img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+  }
+  
